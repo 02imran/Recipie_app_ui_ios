@@ -41,5 +41,6 @@ struct TabBarView: View {
 struct TabBar_Previews: PreviewProvider {
     static var previews: some View {
         TabBarView()
+            .environmentObject(RecipeViewModels())
     }
 }
